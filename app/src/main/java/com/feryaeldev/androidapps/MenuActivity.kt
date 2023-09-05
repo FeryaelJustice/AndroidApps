@@ -16,13 +16,17 @@ class MenuActivity : AppCompatActivity() {
         val btnGoToIMCApp = findViewById<Button>(R.id.btnGoToIMCApp)
 
         btnGoToNameApp.setOnClickListener {
-            startActivity(Intent(this, NameApp::class.java))
+            navigateToApp(NameApp::class.java)
             finish() // To close the activity
         }
 
         btnGoToIMCApp.setOnClickListener {
-            startActivity(Intent(this, IMCApp::class.java))
+            navigateToApp(IMCApp::class.java)
             finish()
         }
+    }
+
+    private fun navigateToApp(appName: Class<*>){
+        startActivity(Intent(this, appName))
     }
 }
