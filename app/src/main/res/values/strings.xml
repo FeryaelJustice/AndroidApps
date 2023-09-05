@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidApps</string>
+    <string name="goto_nameapp">Go to name app</string>
+    <string name="goto_imcapp">Go to imc app</string>
+</resources>
