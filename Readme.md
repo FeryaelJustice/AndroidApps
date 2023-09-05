@@ -9,6 +9,10 @@ Una app que te saluda si pones tu nombre.
 ### 2. IMC App
 Una app que calcula tu índice de masa corporal.
 
+<strong align="center">
+  También incluye las últimas y mejores practicas en Git branching y su uso.
+</strong>
+
 #### Autor
 ```
 FeryaelJustice
