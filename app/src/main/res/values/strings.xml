@@ -1,33 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidApps</string>
-    <string name="goto_nameapp">Go to name app</string>
-    <string name="goto_imcapp">Go to imc app</string>
-    <string name="male">Hombre</string>
-    <string name="female">Mujer</string>
-    <string name="height">Altura</string>
-    <string name="male_symbol_contentdescription">male symbol</string>
-    <string name="female_symbol_contentdescription">female symbol</string>
-    <string name="male_text">Male text</string>
-    <string name="female_text">female_text</string>
-    <string name="rs_height_description">enter your height</string>
-    <string name="height_result">120 cm</string>
-    <string name="weight">Peso</string>
-    <string name="weight_result">60 kg</string>
-    <string name="age_result">18 años</string>
-    <string name="age">edad</string>
-    <string name="age_value">%1$d años</string>
-    <string name="weight_value">%1$d kg</string>
-    <string name="height_value">%1$d cm</string>
-    <string name="calculate">Calcular</string>
-    <string name="imc_result">"Tu IMC es: "</string>
-    <string name="recalculate">Re-calcular</string>
-    <string name="underweight">Delgadez</string>
-    <string name="normal">Normal</string>
-    <string name="overweight">Sobrepeso</string>
-    <string name="obesity">Obesidad</string>
-    <string name="underweight_description">Estás por debajo de lo óptimo para tu peso y altura.</string>
-    <string name="normal_description">Estás en tu peso y altura ideales.</string>
-    <string name="overweight_description">Estás por encima de lo óptimo para tu peso y altura.</string>
-    <string name="obesity_description">Estás muy por encima de lo óptimo para tu peso y altura. Ten cuidado, conlleva riesgos para tu salud.</string>
+	<string name="app_name">AndroidApps</string>
+	<string name="goto_nameapp">Go to name app</string>
+	<string name="goto_imcapp">Go to imc app</string>
+	<string name="goto_todoapp">Go to TODO app</string>
+
+	<!--IMC APP-->
+	<string name="male">Hombre</string>
+	<string name="male_text">Male text</string>
+	<string name="male_symbol_contentdescription">male symbol</string>
+
+	<string name="female">Mujer</string>
+	<string name="female_text">female_text</string>
+	<string name="female_symbol_contentdescription">female symbol</string>
+
+	<string name="height">Altura</string>
+	<string name="height_result">120 cm</string>
+	<string name="rs_height_description">enter your height</string>
+
+	<string name="weight">Peso</string>
+	<string name="weight_result">60 kg</string>
+
+	<string name="age_result">18 años</string>
+	<string name="age">edad</string>
+
+	<string name="age_value">%1$d años</string>
+	<string name="weight_value">%1$d kg</string>
+	<string name="height_value">%1$d cm</string>
+
+	<string name="calculate">Calcular</string>
+	<string name="imc_result">"Tu IMC es: "</string>
+	<string name="recalculate">Re-calcular</string>
+
+	<string name="underweight">Delgadez</string>
+	<string name="underweight_description">Estás por debajo de lo óptimo para tu peso y altura.</string>
+
+	<string name="normal">Normal</string>
+	<string name="normal_description">Estás en tu peso y altura ideales.</string>
+
+	<string name="overweight">Sobrepeso</string>
+	<string name="overweight_description">Estás por encima de lo óptimo para tu peso y altura.</string>
+
+	<string name="obesity">Obesidad</string>
+	<string name="obesity_description">Estás muy por encima de lo óptimo para tu peso y altura. Ten cuidado, conlleva riesgos para tu salud.</string>
+
+	<!--TodoApp-->
+	<string name="todo_title">¡Bienvenido!</string>
+	<string name="todo_categories">Categorías:</string>
+	<string name="todo_tasks">Tareas:</string>
+
+	<string name="todo_dialog_add_task">Añade la tarea</string>
+	<string name="todo_dialog_category_business">Negocios</string>
+	<string name="todo_dialog_category_other">Otros</string>
+	<string name="todo_dialog_category_personal">Personal</string>
+	<string name="todo_dialog_add_task_button">Crear tarea</string>
+	<string name="addTaskHint">Añade la tarea</string>
+	<string name="your_new_task">Tu nueva tarea</string>
+	<string name="business">Negocios</string>
+	<string name="personal">Personal</string>
+	<string name="other">Otros</string>
+	<string name="fab_todoAddTask_contentdescription">Add Task button</string>
+	<string name="create_task">Crear tarea</string>
+	<string name="todo_dialog_empty_task">Your task is empty!</string>
 </resources>
