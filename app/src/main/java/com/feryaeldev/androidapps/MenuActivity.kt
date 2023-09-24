@@ -10,7 +10,7 @@ import com.feryaeldev.androidapps.apps.nameapp.NameApp
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_menu)
 
         val btnGoToNameApp = findViewById<Button>(R.id.btnGoToNameApp)
         val btnGoToIMCApp = findViewById<Button>(R.id.btnGoToIMCApp)
